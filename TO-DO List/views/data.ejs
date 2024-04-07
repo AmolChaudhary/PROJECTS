@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>To-do list </h1>
+    <form method="post">
+        <input type="text" placeholder="Enter your task" name="name">
+
+        <button>Send</button>
+    </form>
+<!-- Method override allows you to work around this limitation by using a POST request with an additional parameter that specifies the intended method. -->
+    <ol>
+        <%for(let i of data){%>
+            <li>
+            <% if(i.isDone==false){%>
+                <del><%= i.name %></del>
+                <%}else{%>
+                
+                    <%= i.name %>
+                <%}%>
+            
+                
+            <a href="/data/<%=i.id%>"><button >Delete</button></a>  
+            <a href="/check/<%=i.id%>"><button >--</button></a>        
+                
+            </li>
+        <%}%>
+       
+    </ol>
+    
+</body>
+</html>
