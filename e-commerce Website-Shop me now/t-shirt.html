@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shop Me Now</title>
+        <link rel="stylesheet" href="t-shirt.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <!-- bootstrap links -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <!-- bootstrap links -->
+
+        <!-- font links-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+        <!-- font links-->
+    </head>
+    <body>
+
+        <!--Top nav bar-->
+        <div class="top-navbar">
+            <div class="top-icons">
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="other-links">
+                <button id="btn-login"><a href="login.html">Login</a></button>
+                <button id="btn-signup"><a href="signup.html">Signup</a></button>
+
+                <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </div>
+        <!--top-nav bar-->
+
+        <div class="home-section">
+            <!--navbar-->
+            <nav class="navbar navbar-expand-lg" id="navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><i class="fa-solid fa-meteor"></i>ShoP me NoW</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="fa-solid fa-bars" style="color:white;"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="clothe.html">Clothe</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Category
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbardropdown" style="background-color:#333376;backdrop-filter: saturate(200%) blur(20px)">
+                        <li><a class="dropdown-item" href="#">T-shirt</a></li>
+                        <li><a class="dropdown-item" href="hoodie.html">Hoodies</a></li>
+                        <li><a class="dropdown-item" href="pant.html">Pants</a></li>
+                        <li><a class="dropdown-item" href="shoes.html">Sports Shoes</a></li>
+                        <li><a class="dropdown-item" href="watch.html">Smart Watch</a></li>
+                        <li><a class="dropdown-item" href="glasses.html">Glasses</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                    </ul>
+                    
+                    <form class="d-flex" role="search">
+                    <button class="btn btn-outline-success" type="submit" id="search-btn"><a href="Search.html">Search</a></button>
+                    </form>
+                </div>
+            </div>
+            </nav>
+        
+            <!--navbar-->
+
+
+            
+
+    <!--product cards-->
+    <div class="container" id="product-cards">
+      <div class="row" style="margin-top:30px;">
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="image/tshirt1.avif" alt="">
+            <div class="card-body">
+              <h3>T-Shirt</h3>
+              <P>Discover comfort and style with our men's t-shirts. From classic crewnecks to trendy prints, find your perfect fit for every occasion."</P>
+              <div class="star">
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+              </div>
+              <h5>$70 <strike>$280</strike><span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="image/tshirt2.avif" alt="">
+            <div class="card-body">
+              <h3>Men's T-shirt</h3>
+              <p>Discover comfort and style with our men's t-shirts. From classic crewnecks to trendy prints, find your perfect fit for every occasion."</p>
+              <div class="star">
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+              </div>
+              <h5>$24 <strike>$96</strike><span><button><i class="fa-solid fa-cart-shopping"></i></span></h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="image/tshirt3.avif" alt="">
+            <div class="card-body">
+              <h3>T-Shirt</h3>
+              <p>Elevate your wardrobe with our diverse collection of t-shirts.Explore fashion-forward prints, ensuring a perfect blend of comfort for all your casual and trendy endeavors.</p>
+              <div class="star">
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+              </div>
+              <h5>$120 <strike>$480</strike><span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="image/p4.png" alt="">
+            <div class="card-body">
+              <h3>Men's T-Shirt</h3>
+              <p>Discover the epitome of casual elegance with our men's t-shirts. Our collection seamlessly blends comfort and style, featuring classic silhouettes and contemporary designs. Elevate your everyday attire with our diverse range, ensuring you make a statement wherever you go.</p>
+              <div class="star">
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+              </div>
+              <h5>$20 <strike>$80</strike><span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" style="margin-top:30px;">
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="image/tshirt3.jpg" alt="">
+            <div class="card-body">
+              <h3>T-Shirt</h3>
+              <p>Discover comfort and style with our men's t-shirts. From classic crewnecks to trendy prints, find your perfect fit for every occasion.</p>
+              <div class="star">
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+              </div>
+              <h5>$700 <strike>$2800</strike><span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="image/t-shirt7.avif" alt="">
+            <div class="card-body">
+              <h3>White T-Shirt</h3>
+              <p>Elevate your wardrobe with our diverse collection of men's t-shirts. Explore timeless basics and fashion-forward prints, ensuring a perfect blend of comfort and style for all your casual and trendy endeavors.</p>
+              <div class="star">
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+              </div>
+              <h5>$54.21 <strike>$234.33</strike><span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="image/t-shirt8.avif" alt="">
+            <div class="card-body">
+              <h3>Black T-Shirt</h3>
+              <p>Elevate your wardrobe with our diverse collection of men's t-shirts.  Explore timeless basics and fashion-forward prints,  ensuring a perfect blend of comfort and style for all your casual and trendy endeavors  .</p>
+              <div class="star">
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+              </div>
+              <h5>$300.10 <strike>$1200.50</strike><span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="image/t-shirt5.avif" alt="">
+            <div class="card-body">
+              <h3>T-Shirt</h3>
+              <p>Revamp your casual wardrobe with our meticulously crafted men's t-shirts. Embrace comfort and style with a versatile range, including classic essentials and contemporary designs. Elevate your everyday look effortlessly with our premium collection and quality product.</p>
+              <div class="star">
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+              </div>
+              <h5>$15.40 <strike>$61.62</strike><span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="clothe.html" id="viewmorebtn">View More</a>
+    </div>
+    <!--product cards-->
+
+    <!--product-->
+    <div class="container" style="margin-top: 100px;">
+      <hr style="border:2px solid black;">
+    </div>
+    <div class="container" style="text-align: center;">
+      <h3 style="font-weight:bold;color:rgb(43, 43, 187); text-shadow: 1px 1px 1px black;">PRODUCTS..</h3>
+      <p style="font-family:'Sriracha', cursive;">Elevate your fashion game with our latest collection of trendy outfits. From saccessories to versatile separates, we've curated the most fashionable items for your wardrobe. Stay ahead of the fashion curve with our diverse range of options, and make a statement with the latest trends and styles.tylish dresses and chic 
+        Indulge in the latest fashion styles with our exclusive collection. Our selection features a fusion of classic elegance and contemporary trends, offering a wide range of clothing and accessories to suit every occasion. From sophisticated evening gowns to casual streetwear, our products are designed to enhance your personal style.</p>
+      <hr style="border:2px solid black;">
+    </div>
+    <!--product-->
+  
+    <!--offer-->
+
+    <div class="container" id="offer">
+      <div class="row">
+        <div class="col-md-4 py-3 py-md-0" >
+          <i class="fa-solid fa-cart-shopping"></i>
+          <h5>Free Shipping</h5>
+          <p>On order over $100</p>
+        </div>
+        <div class="col-md-4 py-3 py-md-0" >
+          <i class="fa-solid fa-truck-fast"></i>
+          <h5>Fast Delivery</h5>
+          <p>World Wide</p>
+        </div>
+        <div class="col-md-4 py-3 py-md-0" >
+          <i class="fa-solid fa-thumbs-up"></i>
+          <h5>Big choice</h5>
+          <p>of products</p>
+        </div>
+      </div>
+    </div>
+
+    <!--offer-->
+
+
+
+
+
+
+    <!--footer-->
+    <footer id="footer" style="margin-top: 50px;">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 footer-content">
+              <h3>Shop Me Now</h3>
+              <p>Shop with us now at ShopMeNow, your one-stop e-commerce destination. Explore a diverse range of products, from electronics and fashion to home decor and more. Enjoy a seamless shopping experience with secure transactions, fast shipping, and excellent customer service. Find exclusive deals and discover the convenience of online shopping. Elevate your retail experience with ShopMeNow today!</p>
+              <br>
+              <p>
+                Delhi<br>
+                Pune<br>
+                Bangalore<br>
+              </p>
+              <br>
+              <strong><i class="fas fa-phone"> Phone:</i> +917876781061,+919459700567</strong>
+              <strong><i class="fa-solid fa-envelope"> Email:</i> amolchaudhary5672@gmail.com</strong>
+            </div>
+            <div class="col-lg-3 col-md-6 footer-content">
+              <h4>Usefull Links</h4>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Privacy-Policy</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 footer-content">
+              <h3>Our Services</h3>
+              <p>In our Service Section at ShopMeNow, customer satisfaction is our top priority. We provide a range of services to enhance your shopping experience. From fast and reliable shipping to responsive customer support, we are dedicated to meeting your needs. Our secure payment options and hassle-free returns policy ensure a worry-free shopping journey. Shop with confidence at ShopMeNow and experience exceptional service at every step.</p>
+              <br>
+              <ul>
+                <li><a href="#">Smart Phone</a></li>
+                <li><a href="#">Smart Band</a></li>
+                <li><a href="#">Smart watch</a></li>
+                <li><a href="#">Ear Buds</a></li>
+                <li><a href="#">Apple Products</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Our Social Network</h4>
+              <p>Introducing the future of shopping: our social network for e-commerce. Connect with like-minded shoppers, share product reviews, and discover trending items. Interact with brands and sellers, ask questions, and get personalized recommendations. Join the shopping community where your opinions matter, and stay updated on exclusive deals and promotions. Experience a new way to shop and connect on our social network today.</P>
+                <div class="social-links mt-3">
+                  <a href="#" class="twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                  <a href="#" class="twitter"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#" class="twitter"><i class="fa-brands fa-google"></i></a>
+                  <a href="#" class="twitter"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="#" class="twitter"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="container py-4">
+        <div class="copyright">
+          &copy; Copyright<strong> Shop Me Now</strong>.All Rights Reserved
+        </div>
+        <div class="credits">
+          Designed By <a href="#">Amol & Nishant</a>
+        </div>
+      </div>
+
+    </footer>
+    <!--footer-->
+    
+      <a href="#" class="arrow"><i><img src="image/up-arrow.png" alt="" width="50px;"></i></a>
+        
+    </body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</html>
+
+  
+
+
+
+
+
+
+
+
+            
